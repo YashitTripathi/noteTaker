@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap')
+	;
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 25px o;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar img {
+	height: 70px;
+}
+
+.logo {
+	width: 120px;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	margin: 0 5px;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'poppins', sans-serif;
+	color: black;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+#menu ul li::after {
+	content: '';
+	height: 3px;
+	width: 0;
+	background: white;
+	position: absolute;
+	left: 12px;
+	bottom: -25px;;
+	top: 45px;
+	transition: 0.5s;
+}
+
+#menu ul li:hover::after {
+	width: 80%;
+}
+
+#menu ul li i{
+	margin-right:3px;
+}
+
+.Main{
+	height:550px
+}
+
+.nt {
+	margin: 5px 5px 9px 5px;
+	border: 2px solid black;
+	background-color: black;
+	font-size: 20px;
+	color: white;
+	border-radius: 3px;
+	height: 60px;
+	text-align: center;
+	padding-top: 10px;
+	text-transform:UPPERCASE;
+}
+
+.p1 h4{
+	margin-left:2.5%;
+}
+
+.p1 input {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-radius: 4px;
+	
+}
+
+.p1 {
+	padding-top: 5px;
+	height: 100%;
+	background-color:#c2fff1;
+}
+
+#form-title:hover {
+	background-color: black;
+	color: white;
+}
+
+.submit-button{
+    background-color: white; 
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+

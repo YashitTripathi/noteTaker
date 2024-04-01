@@ -1,0 +1,78 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap')
+	;
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.p1 input {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-radius: 4px;
+}
+
+.p1 {
+	padding-top: 5px;
+	height: 100%;
+}
+
+.Main {
+	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+.nt {
+	margin-top: 5px;
+	padding-top: 5px;
+	border: 2px solid black;
+	background-color: black;
+	font-size: 20px;
+	color: white;
+	border-radius: 3px;
+	height: 60px;
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.card {
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	width: 100%; 
+	margin-top: 3px; 
+	border: 1px solid black;
+}
+
+#form-title:hover {
+	background-color: black;
+	color: white;
+}
+
+#card1 {
+	padding-left: 4px;
+	padding-right:4px;
+	background-color:black;
+}
+
+.submit-button{
+    background-color: white; 
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #04AA6D;
+  color: white;
+}
