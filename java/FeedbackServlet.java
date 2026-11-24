@@ -22,7 +22,7 @@ public class FeedbackServlet extends HttpServlet {
         	  // Register JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
              // Open a connection
-             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/notetaker", "root", "Rimee@2001");
+             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/notetaker", "root", "YOUR_DB_PASSWORD");
             String query = "INSERT INTO feedback (name, email, text) VALUES (?, ?, ?)";
             PreparedStatement st = con.prepareStatement(query);
                 st.setString(1, name);
