@@ -24,7 +24,7 @@ public class Update extends HttpServlet {
 		String query = "update notes set title='"+title+"',content='"+content+ "'where id ="+ id;
 		String url = "jdbc:mysql://localhost:3306/notetaker";
 		String Uname = "root";
-		String Upass = "Rimee@2001";
+		String Upass = "YOUR_DB_PASSWORD";
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
