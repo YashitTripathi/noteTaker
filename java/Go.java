@@ -22,7 +22,7 @@ public class Go extends HttpServlet {
     response.setContentType("text/html");  
     PrintWriter out = response.getWriter();  
     Part filenamefn = filePart;   
-    String filepath = "C:\\Users\\rivia\\OneDrive\\Desktop\\eclipse work";   
+    String filepath = "C:\\Users\\Desktop\\eclipse work";   
     response.setContentType("APPLICATION/OCTET-STREAM");   
     response.setHeader("Content-Disposition","attachment; filename=\"" + filenamefn + "\"");   
       
