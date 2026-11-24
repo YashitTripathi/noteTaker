@@ -19,7 +19,7 @@ public class reg extends HttpServlet {
 		String Password = request.getParameter("Password");
 	    String url = "jdbc:mysql://localhost:3306/notetaker";
 	    String Uname = "root";
-	    String Upass = "Rimee@2001";
+	    String Upass = "YOUR_DB_PASSWORD";
 
 	    try {
 	    	 // Register JDBC driver
