@@ -49,7 +49,7 @@ public class Upload extends HttpServlet {
         // Insert data into the database
         String jdbcUrl = "jdbc:mysql://localhost:3306/notetaker";
         String dbUser = "root";
-        String dbPassword = "Rimee@2001";
+        String dbPassword = "YOUR_DB_PASSWORD";
 
         try{
         	Class.forName("com.mysql.cj.jdbc.Driver");
