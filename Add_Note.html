@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add Note</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css_style/add_note.css">
+
+</head>
+<body>
+<div style="background:#fff3cd;color:#664d03;text-align:center;padding:6px 10px;font-size:13px;font-family:sans-serif;">Static demo: nothing is saved. The full version runs on Java (JSP/Servlets) with MySQL.</div>
+<nav class="navbar-default" style="color: black; background-color: #20dbc2;">
+		<div class="container" style="width: 100%">
+			<div class="navbar-header">
+				<h3><i class="fa-solid fa-box-archive"></i><u>NoteTaker</u></h3>
+			</div>
+			<div class="collapse navbar-collapse in" id="menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-house"> </i> Home</a></li>
+					<li><a href="Your_Notes.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-book-open"> </i> My Notes</a></li>
+					<li><a href="Your_PDF.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-file-pdf"> </i> My PDF</a></li>
+					<li><a href="Help.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-circle-info"> </i> Help</a></li>
+					<li><a href="About_Us.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-address-card"> </i> About Us!</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div class="Main">
+	<div class="nt">Add your Notes &amp; PDF Here!</div>
+	<div class="p1">
+		<form onsubmit="event.preventDefault(); alert('Demo: note added (nothing is saved).'); location.href='Your_Notes.html';">
+			<h4>Title</h4>
+			<input style="font-size: 20px; border-radius: 5px; width: 95%; margin-left: 2.5%" type="text" name="title" class="form-control" placeholder="Enter your title here" required>
+			<div class="form-group">
+				<h4>Content</h4>
+				<textarea placeholder="Enter your content here" class="form-control" style="font-size: 20px; height: 200px; width: 95%; padding-left: 10px; margin-left: 2.5%" name="content" required></textarea>
+			</div>
+			<center><input type="submit" class="submit-button" value="ADD CONTENT"></center>
+		</form>
+		<div><h4>Attach Document</h4></div>
+		<form onsubmit="event.preventDefault(); alert('Demo: file upload is disabled (nothing is saved).'); location.href='Your_PDF.html';">
+			<input type="file" name="file" style="display: flex; float: left; margin-left: 15%">
+			<input type="submit" class="submit-button" value="UPLOAD">
+		</form>
+	</div>
+</div>
+</body>
+</html>
