@@ -4,7 +4,7 @@ A web-based note-taking application built with **JSP, Java Servlets and MySQL**.
 
 ## Live Demo
 
-**https://rimeeawasthi01.github.io/notetaker/**
+**https://yashittripathi.github.io/noteTaker/**
 
 > This is a **static preview** hosted on GitHub Pages, so you can click through every page and see the interface. Nothing is saved, and login, upload, update and delete are simulated with sample data. The full version runs on a Java server (Apache Tomcat) with a MySQL database, as described below.
 
@@ -87,7 +87,6 @@ noteTaker/
 |------|--------|
 | Yashit Tripathi | [@YashitTripathi](https://github.com/YashitTripathi) |
 | Rimee Awasthi | [@RimeeAwasthi01](https://github.com/RimeeAwasthi01) |
-| Antara Pandey | 
 
 ## Note
 
