@@ -74,12 +74,13 @@ noteTaker/
 6. **Run on Tomcat** and open `http://localhost:8080/<project-name>/index.jsp`.
 
 ## Screenshots
-<img width="1269" height="570" alt="HomePage" src="https://github.com/user-attachments/assets/da81a1e0-fe59-4cb2-bbbb-b79f84eaf2a0" />
-<img width="1269" height="573" alt="RegisterPage" src="https://github.com/user-attachments/assets/fc3c19ca-dd5e-4653-9a40-3ce24cca4bd4" />
-<img width="1269" height="560" alt="ContentUploadPage" src="https://github.com/user-attachments/assets/e093d257-17f1-40eb-9703-d9c4b0aeb5dd" />
-<img width="554" height="250" alt="NotesPage" src="https://github.com/user-attachments/assets/5e15978d-d6a2-4471-adba-588f23bcfc63" />
-<img width="554" height="249" alt="PdfDownloadPage" src="https://github.com/user-attachments/assets/c62875a9-b84f-4660-a4f4-4393c0c8c0a1" />
-<img width="1269" height="575" alt="FeedbackPage" src="https://github.com/user-attachments/assets/37c05b0e-3cf3-4ffb-951e-dd59adb4a1ba" />
+<img width="1269" height="570" alt="HomePage" src="https://github.com/user-attachments/assets/01527a1b-3101-4cd5-93f2-e25477887940" />
+<img width="1269" height="573" alt="RegisterPage" src="https://github.com/user-attachments/assets/e6037154-2f9f-4f00-84b4-2c196211d806" />
+<img width="554" height="250" alt="ContentUploadPage" src="https://github.com/user-attachments/assets/7636143c-cf2e-4c78-aa9d-a9757ba48079" />
+<img width="554" height="250" alt="NotesPage" src="https://github.com/user-attachments/assets/63ac99a8-24d9-4e1e-a0b0-c26454b1c5c2" />
+<img width="554" height="249" alt="PdfDownloadPage" src="https://github.com/user-attachments/assets/0e231f1e-e6b2-4e29-b76a-1a3d44864c7a" />
+<img width="1269" height="575" alt="FeedbackPage" src="https://github.com/user-attachments/assets/9b47cefa-d298-4bae-9960-535074613500" />
+
 
 ## Team
 
