@@ -77,10 +77,10 @@ noteTaker/
 <img width="1269" height="570" alt="HomePage" src="https://github.com/user-attachments/assets/01527a1b-3101-4cd5-93f2-e25477887940" />
 <img width="1269" height="573" alt="RegisterPage" src="https://github.com/user-attachments/assets/e6037154-2f9f-4f00-84b4-2c196211d806" />
 <img width="1269" height="570" alt="ContentUploadPage" src="https://github.com/user-attachments/assets/7636143c-cf2e-4c78-aa9d-a9757ba48079" />
-<img width="1269" height="570" alt="NotesPage" src="https://github.com/user-attachments/assets/63ac99a8-24d9-4e1e-a0b0-c26454b1c5c2" />
-<img width="1269" height="570" alt="PdfDownloadPage" src="https://github.com/user-attachments/assets/0e231f1e-e6b2-4e29-b76a-1a3d44864c7a" />
+<img width="1917" height="863" alt="Screenshot 2026-11-24 144041" src="https://github.com/user-attachments/assets/f5daaf25-8c63-4c2f-9e4b-245cfc1f6c1c" />
+<img width="1917" height="812" alt="Screenshot 2026-11-24 144100" src="https://github.com/user-attachments/assets/d21a5736-4870-44f3-af4f-28962ee6acd4" />
 <img width="1269" height="575" alt="FeedbackPage" src="https://github.com/user-attachments/assets/9b47cefa-d298-4bae-9960-535074613500" />
-
+<img width="1917" height="806" alt="Screenshot 2026-11-24 144117" src="https://github.com/user-attachments/assets/76d2c0c6-1cde-4246-8fab-5a58dc6f7704" />
 
 ## Team
 
