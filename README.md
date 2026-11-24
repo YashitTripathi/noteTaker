@@ -74,9 +74,12 @@ noteTaker/
 6. **Run on Tomcat** and open `http://localhost:8080/<project-name>/index.jsp`.
 
 ## Screenshots
-
+<img width="1269" height="570" alt="HomePage" src="https://github.com/user-attachments/assets/da81a1e0-fe59-4cb2-bbbb-b79f84eaf2a0" />
+<img width="1269" height="573" alt="RegisterPage" src="https://github.com/user-attachments/assets/fc3c19ca-dd5e-4653-9a40-3ce24cca4bd4" />
 <img width="1269" height="560" alt="ContentUploadPage" src="https://github.com/user-attachments/assets/e093d257-17f1-40eb-9703-d9c4b0aeb5dd" />
-
+<img width="554" height="250" alt="NotesPage" src="https://github.com/user-attachments/assets/5e15978d-d6a2-4471-adba-588f23bcfc63" />
+<img width="554" height="249" alt="PdfDownloadPage" src="https://github.com/user-attachments/assets/c62875a9-b84f-4660-a4f4-4393c0c8c0a1" />
+<img width="1269" height="575" alt="FeedbackPage" src="https://github.com/user-attachments/assets/37c05b0e-3cf3-4ffb-951e-dd59adb4a1ba" />
 
 ## Team
 
