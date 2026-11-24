@@ -26,7 +26,7 @@ public class Insert_Content extends HttpServlet {
             // Register JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             // Open a connection
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/notetaker", "root", "Rimee@2001");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/notetaker", "root", "YOUR_DB_PASSWORD");
                 // SQL query with a prepared statement
                 String query = "INSERT INTO notes (title, content, date) VALUES (?, ?, ?)";
                 PreparedStatement st = con.prepareStatement(query);
