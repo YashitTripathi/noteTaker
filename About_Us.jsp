@@ -118,23 +118,7 @@
 				</div>
 			</div>
 
-			<!-- Card 3 -->
 
-			<div class="card">
-				<div class="card-img">
-					<img src="images/antara.jpg" alt="User 3">
-				</div>
-				<div class="card-info">
-					<h2 class="card-name">Antara Pandey</h2>
-					<p class="card-email">antarapandey0103921@gmail.com</p>
-					<p>
-						<button class="button">
-							<a href="mailto:antarapandey0103921@gmail.com" target="_blank"
-								style="color: white; text-decoration: none;">Contact</a>
-						</button>
-					</p>
-				</div>
-			</div>
 		</div>
 	</section>
 	<!-- cards end -->
