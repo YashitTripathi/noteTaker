@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feedback</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css_style/feedback.css">
+<link rel="stylesheet" href="css_style/index_style.css">
+
+</head>
+<body>
+<div style="background:#fff3cd;color:#664d03;text-align:center;padding:6px 10px;font-size:13px;font-family:sans-serif;">Static demo: nothing is saved. The full version runs on Java (JSP/Servlets) with MySQL.</div>
+<nav class="navbar-default" style="color: black; background-color: #20dbc2;">
+		<div class="container" style="width: 100%">
+			<div class="navbar-header">
+				<h3><i class="fa-solid fa-box-archive"></i><u>NoteTaker</u></h3>
+			</div>
+			<div class="collapse navbar-collapse in" id="menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-house"> </i> HOME</a></li>
+					<li><a href="Your_Notes.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-book-open"> </i> My Notes</a></li>
+					<li><a href="About_Us.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-address-card"> </i> Contact</a></li>
+					<li><a href="Help.html" style="font-size: 15px; color: black;"><i class="fa-solid fa-circle-info"> </i> Help</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div class="contain">
+	<h2>Send us your feedback !!</h2>
+	<form onsubmit="event.preventDefault(); alert('Thank you! (Demo: feedback is not stored.)'); this.reset();">
+		<label for="name">Name:</label> <input type="text" id="name" name="name" required><br>
+		<label for="email">Email:</label> <input type="email" id="email" name="email" required><br>
+		<label for="text">Feedback:</label>
+		<textarea id="text" name="text" rows="4" required></textarea>
+		<br> <input type="submit" value="Submit Feedback">
+	</form>
+</div>
+<footer>Copyright.. 2024 NoteTaker. All Rights Reserved.</footer>
+</body>
+</html>

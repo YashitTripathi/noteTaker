@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css_style/login_style.css">
+
+</head>
+<body>
+<div style="background:#fff3cd;color:#664d03;text-align:center;padding:6px 10px;font-size:13px;font-family:sans-serif;">Static demo: nothing is saved. The full version runs on Java (JSP/Servlets) with MySQL.</div>
+<div class="navbar">
+		<img src="https://www.adazing.com/wp-content/uploads/2019/02/stacked-book-clipart-09-300x300.png" class="logo">
+		<ul>
+			<li><a href="index.html"><i class="fa-solid fa-house" style="margin-right: 5px;"> </i>HOME</a></li>
+			<li><a href="Login.html"><i class="fa-solid fa-plus" style="margin-right: 5px;"> </i>ADD NOTE</a></li>
+			<li><a href="register.html"><i class="fa-solid fa-right-to-bracket" style="margin-right: 5px;"> </i>SIGN-UP</a></li>
+			<li><a href="About_Us.html"><i class="fa-solid fa-address-card" style="margin-right: 5px;"> </i>ABOUT</a></li>
+			<li><a href="Help.html"><i class="fa-solid fa-circle-info" style="margin-right: 5px;"> </i>HELP</a></li>
+		</ul>
+	</div>
+<div class="container">
+	<div class="forms-container">
+		<div class="signin-signup">
+			<form onsubmit="event.preventDefault(); location.href='Your_Notes.html';" class="sign-in-form">
+				<h2 class="title">Sign in</h2>
+				<div class="input-field"><i class="fas fa-user"></i> <input type="text" name="name" placeholder="Username" required></div>
+				<div class="input-field"><i class="fas fa-lock"></i> <input type="password" name="password" placeholder="Password" required></div>
+				<input type="submit" class="btn solid" value="Login">
+				<p style="font-size:12px;color:#666;margin-top:8px;">Demo: enter any username and password.</p>
+				<p class="social-text">Or Join Us! through social platforms</p>
+					<div class="social-media">
+						<a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+						<a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+					</div>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
