@@ -18,7 +18,7 @@ public class login extends HttpServlet {
 	String query = "select * from user;";
 	String url = "jdbc:mysql://localhost:3306/notetaker";
 	String Uname = "root";
-	String Upass = "Rimee@2001";
+	String Upass = "YOUR_DB_PASSWORD";
 	
 	//POst method
 
