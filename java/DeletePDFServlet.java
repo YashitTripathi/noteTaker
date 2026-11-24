@@ -24,7 +24,7 @@ public class DeletePDFServlet extends HttpServlet {
         // Database connection parameters
         String jdbcUrl = "jdbc:mysql://localhost:3306/notetaker";
         String dbUser = "root";
-        String dbPassword = "Rimee@2001";
+        String dbPassword = "YOUR_DB_PASSWORD";
 
         // Delete the file from the database and server's file system
         try (Connection connection = DriverManager.getConnection(jdbcUrl, dbUser, dbPassword)) {
